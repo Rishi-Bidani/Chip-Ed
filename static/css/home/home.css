@@ -1,16 +1,26 @@
 :root{
-  --topHeight: 10vh;
+  --topHeight: 6vh;
   --mainheight: calc(100vh - var(--topHeight));
+  --welcomeFont: 1rem;
+  --container1height: 90%;
 }
 :root{
   --color1: #33373D;
   --color2: #474A55;
 }
-
+html{
+  overflow-x: hidden;
+}
+body{
+  background-color: var(--color2)
+}
 .topPanel{
   width: 100vw;
-  height: 10vh;
+  height: var(--topHeight);
   background-color: var(--color1);
+}
+.topMarg{
+  margin-top: 1em;
 }
 
 .mainPanel{
@@ -20,14 +30,36 @@
 .welcome{
   font-family: "spartanB";
   color: white;
-  font-size: 1rem;
+  font-size: var(--welcomeFont);
+  height: 0.5rem;
+  margin-bottom: 1em;
 }
 .container{
-  padding-left: 3vw;
-  padding-top: 2vh;
+  padding: 2vh 3vw 2vh 3vw;
+  height: var(--container1height);
+}
+.container2{
+  width: 100%;
+  height: 60%;
+  /* background-color: blue; */
+  z-index: 5;
+  display: inline-flex;
+
 }
 .todo{
-  height: 40vh;
-  width: 40vw;
-  background-color: red;
+  height: 100%;
+  width: 40%;
+  background-color: var(--color1);
+  border-radius: 10px;
+}
+.calendar{
+  width: 60%;
+  height: 100%;
+  margin-left: 5%;
+  background-color: var(--color1);
+  border-radius: 10px;
+}
+img{
+  height: 60%;
+  filter: drop-shadow( 10px 10px 4px rgba(0, 0, 0, .5));
 }
