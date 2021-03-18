@@ -1,0 +1,13 @@
+{
+  "name": "ChipEd",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Rishi",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^12.0.1"
+  }
+}

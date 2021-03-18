@@ -1,0 +1,33 @@
+:root{
+  --topHeight: 10vh;
+  --mainheight: calc(100vh - var(--topHeight));
+}
+:root{
+  --color1: #33373D;
+  --color2: #474A55;
+}
+
+.topPanel{
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--color1);
+}
+
+.mainPanel{
+  height: var(--mainheight);
+  background-color: var(--color2);
+}
+.welcome{
+  font-family: "spartanB";
+  color: white;
+  font-size: 1rem;
+}
+.container{
+  padding-left: 3vw;
+  padding-top: 2vh;
+}
+.todo{
+  height: 40vh;
+  width: 40vw;
+  background-color: red;
+}
