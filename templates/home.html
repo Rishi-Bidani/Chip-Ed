@@ -5,12 +5,17 @@
   <title>Home page</title>
   <link rel="stylesheet" href="../static/css/home/home.css">
   <link rel="stylesheet" href="../static/css/home/buttons.css">
+  <link rel="stylesheet" href="../static/css/home/toggle.css">
   <link rel="stylesheet" href="../static/css/all.css">
 
 </head>
 
 <body>
   <div class="topPanel">
+    <div class="toggle">
+      <input type="checkbox" id="switch" onclick="colorButtons(this)"/>
+      <label for="switch"></label>
+    </div>
   </div>
   <div class="mainPanel">
     <div class="container">
@@ -42,5 +47,21 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript">
+    function colorButtons(checkBox){
+      let allButtons = document.getElementsByClassName('navButtons')
+      if (checkBox.checked == true) {
+        for (var i = 0; i < allButtons.length; i++) {
+          allButtons[i].classList.add("active")
+        }
+      }else{
+        for (var i = 0; i < allButtons.length; i++) {
+          allButtons[i].classList.remove("active")
+        }
+      }
+
+    }
+  </script>
 </body>
+
 </html>

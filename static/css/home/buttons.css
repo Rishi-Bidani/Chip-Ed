@@ -1,3 +1,4 @@
+/* DARK THEME */
 :root{
   /* Button 1 */
   --gradBut11: #B8885B;
@@ -11,6 +12,21 @@
   /* Button 4 */
   --gradBut41: #71935C;
   --gradBut42: #92B69C;
+}
+/* LIGHT THEME */
+:root{
+  /* Button 1 */
+  --gradDBut11: #FFDDBD;
+  --gradDBut12: #EEECB2;
+  /* Button 2 */
+  --gradDBut21: #FFD3D3;
+  --gradDBut22: #FBC1A0;
+    /* Button 3 */
+  --gradDBut31: #D1CEFC;
+  --gradDBut32: #E0BBE5;
+    /* Button 4 */
+  --gradDBut41: #CDF0B7;
+  --gradDBut42: #CEF1D8;
 }
 
 .navButtonsContainer {
@@ -30,7 +46,13 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.3s;
 }
+
+.navButtons:hover{
+  transform: scale(1.02);
+}
+
 #button1{
   background-image: linear-gradient(var(--gradBut11), var(--gradBut12));
 }
@@ -42,4 +64,17 @@
 }
 #button4{
   background-image: linear-gradient(var(--gradBut41), var(--gradBut42));
+}
+
+#button1.active{
+  background-image: linear-gradient(var(--gradDBut11), var(--gradDBut12));
+}
+#button2.active{
+  background-image: linear-gradient(var(--gradDBut21), var(--gradDBut22));
+}
+#button3.active{
+  background-image: linear-gradient(var(--gradDBut31), var(--gradDBut32));
+}
+#button4.active{
+  background-image: linear-gradient(var(--gradDBut41), var(--gradDBut42));
 }
