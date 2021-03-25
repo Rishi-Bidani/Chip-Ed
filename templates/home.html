@@ -13,7 +13,7 @@
 <body>
   <div class="topPanel">
     <div class="toggle">
-      <input type="checkbox" id="switch" onclick="colorButtons(this)"/>
+      <input type="checkbox" id="switch" onclick="colorButtons(this)" />
       <label for="switch"></label>
     </div>
   </div>
@@ -22,9 +22,9 @@
       <div class="welcome">WELCOME, John!</div>
       <div class="container2">
         <!-- Top Container -->
-        <div class="todo">
+        <div class="todo homeContainer">
         </div>
-        <div class="calendar">
+        <div class="calendar homeContainer">
         </div>
         <!-- End top container -->
       </div>
@@ -48,13 +48,41 @@
     </div>
   </div>
   <script type="text/javascript">
-    function colorButtons(checkBox){
+    var r = document.querySelector(':root');
+    let root = getComputedStyle(r);
+    let mainPanel = document.getElementsByClassName('mainPanel')[0];
+    let topPanel = document.getElementsByClassName("topPanel")[0];
+    let homeContainer = Array.from(document.getElementsByClassName('homeContainer'));
+    console.log(homeContainer)
+    function colorButtons(checkBox) {
       let allButtons = document.getElementsByClassName('navButtons')
       if (checkBox.checked == true) {
+        mainPanel.style.backgroundColor =
+        root.getPropertyValue("--lightColor3");
+        topPanel.style.backgroundColor =
+        root.getPropertyValue("--lightColor1");
+        document.body.style.backgroundColor =
+        root.getPropertyValue("--lightColor2");
+
+        homeContainer.forEach(element => {
+          element.style.backgroundColor =
+          root.getPropertyValue("--lightColor1");
+        })
+
         for (var i = 0; i < allButtons.length; i++) {
           allButtons[i].classList.add("active")
         }
-      }else{
+      } else {
+        homeContainer.forEach(element => {
+          element.style.backgroundColor =
+          root.getPropertyValue("--color1");
+        })
+        mainPanel.style.backgroundColor =
+        root.getPropertyValue("--color2");
+        topPanel.style.backgroundColor =
+        root.getPropertyValue("--color1");
+        document.body.style.backgroundColor =
+        root.getPropertyValue("--color2");
         for (var i = 0; i < allButtons.length; i++) {
           allButtons[i].classList.remove("active")
         }
