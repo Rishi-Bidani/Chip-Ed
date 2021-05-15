@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		*,
+		*::after,
+		*::before {
+			overflow: hidden;
+
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0px;
+		}
+
+		@font-face {
+			font-family: "spartanExB";
+			src: url("../static/Spartan-ExtraBold.ttf");
+			font-weight: bold;
+		}
+
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		@keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		.calendar-body {
+			display: grid;
+			justify-content: center;
+			width: 100vw;
+			height: auto;
+			padding: 1vw;
+
+			animation: fadeIn ease 1.5s;
+
+			/* border: 1px solid black; */
+
+			font-family: "spartan";
+
+			grid-template-columns: repeat(1, 7fr);
+		}
+
+		.calendar-header {
+			text-align: center;
+			text-transform: uppercase;
+			padding-top: 5vh;
+			padding-bottom: 4vh;
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+
+		.calendar {
+			width: auto;
+
+			transition: height 0.15s linear;
+			animation: fadeIn ease 1s;
+			height: 100vh;
+
+			/* border: 2px solid black; */
+			background-image: linear-gradient(#9e7474, #c59d87);
+		}
+
+		.calendar-date-weekday,
+		.calendar-date-weekend {
+			height: 12vh;
+			padding-top: 1vh;
+			padding-bottom: 1vh;
+			padding-left: 1vw;
+			/* border: 1px solid rgb(161, 156, 156); */
+		}
+
+		.calendar-month-view-next-month-date,
+		.calendar-month-view-last-month-date {
+			color: rgb(219, 219, 219);
+		}
+
+		.calendar-table-header {
+			/* border: none; */
+			position: sticky;
+			z-index: 1;
+			top: 0;
+			/* padding-top: 1vh; */
+
+			padding-bottom: 1.5vh;
+			padding-left: 0.5vw;
+
+			text-align: left;
+			text-transform: uppercase;
+
+			font-weight: bold;
+			/* background-color: white; */
+		}
+
+		#nextMonthName {
+			text-transform: capitalize;
+		}
+	</style>
+	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<body>
+		<div class="container">
+			<div class="calendar">
+				<div class="calendar-header">
+					<div class="current-month-year"> <span id="month"></span>
+						<span id="year"></span>
+					  </div>
+				</div>
+				<div class="calendar-body"></div>
+			</div>
+		</div>
+	</body>
+	<script src="../homeCalendar.js"></script>
+</html>

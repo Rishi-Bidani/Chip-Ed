@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="../static/css/home/home.css">
+  <link rel="stylesheet" href="../static/css/home/toggle.css">
+  <link rel="stylesheet" href="../static/css/all.css">
+  <link rel="stylesheet" href="../static/css/calendar.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<body>
+  <div class="topPanel">
+    <div class="toggle">
+      <input type="checkbox" id="switch" onclick="colorButtons(this)" />
+      <label for="switch"></label>
+    </div>
+  </div>
+  <div class="mainPanel">
+    <div class="container">
+      <div class="calendar" id="calendar">
+        <div class="calendar-header">
+          <div class="current-month-year"> <span id="month"></span>
+            <span id="year"></span>
+          </div>
+          <div class="calendar-header-buttons-container">
+            <div class="year-dropdown dropdown">
+              <button class="calendar-button calendar-year" id="selected-year"></button>
+              <div class="dropdown-content" id="year-dropdown-list"></div>
+            </div>
+            <div>
+              <button class="calendar-button calendar-today" id="go-to-today"> Go to Today </button>
+            </div>  
+            <div class="month-dropdown dropdown">
+              <button class="calendar-button calender-month" id="selected-month"></button>
+              <div class="dropdown-content" id="month-dropdown-list"></div>
+            </div>
+            <div> 
+              <button class="calendar-button" id="sendpls">Event</button>
+            </div>
+          </div>
+
+        </div>
+        <br />
+
+        <div id="calendar-div">
+          <div class="calendar-month-navigate" id="prev">
+            <span id="monthArrow"> <img src="../static/assets/home/left-arrow.svg" alt="Prev Month" > </span>
+          </div>
+          <div class="calendar-body">
+          </div>
+          <div class="calendar-month-navigate" id="next">
+            <span id="monthArrow"> <img src="../static/assets/home/right-arrow.svg" alt="Next Month" > </span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+<script src="../calendar.js"></script>
+<script type="text/javascript">
+  var r = document.querySelector(':root');
+  let root = getComputedStyle(r);
+  let mainPanel = document.getElementsByClassName('mainPanel')[0];
+  let topPanel = document.getElementsByClassName("topPanel")[0];
+  let homeContainer = Array.from(document.getElementsByClassName('homeContainer'));
+
+  function colorButtons(checkBox) {
+    let allButtons = document.getElementsByClassName('navButtons')
+    if (checkBox.checked == true) {
+      mainPanel.style.backgroundColor =
+        root.getPropertyValue("--lightColor3");
+      topPanel.style.backgroundColor =
+        root.getPropertyValue("--lightColor1");
+      document.body.style.backgroundColor =
+        root.getPropertyValue("--lightColor2");
+
+      homeContainer.forEach(element => {
+        element.style.backgroundColor =
+          root.getPropertyValue("--lightColor1");
+      })
+
+      for (var i = 0; i < allButtons.length; i++) {
+        allButtons[i].classList.add("active")
+      }
+    } else {
+      homeContainer.forEach(element => {
+        element.style.backgroundColor =
+          root.getPropertyValue("--color1");
+      })
+      mainPanel.style.backgroundColor =
+        root.getPropertyValue("--color2");
+      topPanel.style.backgroundColor =
+        root.getPropertyValue("--color1");
+      document.body.style.backgroundColor =
+        root.getPropertyValue("--color2");
+      for (var i = 0; i < allButtons.length; i++) {
+        allButtons[i].classList.remove("active")
+      }
+    }
+  }
+</script>
+
+</html>

@@ -1,0 +1,668 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:vjak0002@student.monash.edu
+PRODID:-//Apple Inc.//macOS 11.2.3//EN
+X-WR-CALDESC:vjak0002@student.monash.edu
+X-APPLE-CALENDAR-COLOR:#9FE1E7
+X-WR-TIMEZONE:Asia/Dubai
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Dubai
+BEGIN:STANDARD
+TZOFFSETFROM:+034112
+DTSTART:19191231T235948
+TZNAME:GST
+TZOFFSETTO:+0400
+RDATE:19191231T235948
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+TZOFFSETFROM:+1100
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+DTSTART:20080406T030000
+TZNAME:GMT+10
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+1000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+DTSTART:20081005T020000
+TZNAME:GMT+11
+TZOFFSETTO:+1100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Dubai:20201018T053000
+UID:79gkrkjs1mrv12at2q7n3alnme@google.com
+DTSTAMP:20201010T120900Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Zoom Meeting
+LAST-MODIFIED:20201010T120900Z
+CREATED:20201010T120900Z
+DTSTART;TZID=Asia/Dubai:20201018T043000
+BEGIN:VALARM
+X-WR-ALARMUID:80AD28C4-DB8C-4B06-8897-D5207B09D507
+UID:80AD28C4-DB8C-4B06-8897-D5207B09D507
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20190920T150000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="ibrahim.maalouf@monash.edu":mailto:ibrahim.maalouf@monash.
+ edu
+UID:4kk7grbuflq7pb8dp4a3fbdrtq@google.com
+DTSTAMP:20190920T042009Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Vishal JAKHAR 31016219
+LAST-MODIFIED:20190920T042009Z
+DTSTART;TZID=Australia/Sydney:20190920T143000
+CREATED:20190918T004633Z
+ATTENDEE;CN="ibrahim.maalouf@monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACCE
+ PTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ibrahim.maalouf@monash.e
+ du
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:B99DEA6F-66E6-4FC5-9CD7-FC65512A6D7D
+UID:B99DEA6F-66E6-4FC5-9CD7-FC65512A6D7D
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20190920T042005Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:A5D1788A-EF0C-4897-AB2A-91D1E5BA4891
+UID:A5D1788A-EF0C-4897-AB2A-91D1E5BA4891
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20190920T042005Z
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20200512T223000
+UID:147C0470-A87F-4F0B-8EC4-6ABAD1F17DC2
+DTSTAMP:20200513T085536Z
+LOCATION:https://us02web.zoom.us/j/82819131448?pwd=UzAxTTZGMitFeEc5ZnpOV
+ XZJVWdrQT09
+DESCRIPTION:Vishal Jakhar is inviting you to a scheduled Zoom meeting.\n
+ \n\n\nJoin Zoom Meeting\n\nhttps://us02web.zoom.us/j/82819131448?pwd=UzA
+ xTTZGMitFeEc5ZnpOVXZJVWdrQT09\n\n\n\nMeeting ID: 828 1913 1448\n\nPasswo
+ rd: 7Nm3R0\n\n
+URL;VALUE=URI:https://us02web.zoom.us/j/82819131448?pwd=UzAxTTZGMitFeEc5
+ ZnpOVXZJVWdrQT09
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Vishal Jakhar's Zoom Meeting
+LAST-MODIFIED:20200513T085536Z
+DTSTART;TZID=Australia/Sydney:20200512T220000
+CREATED:20200513T085536Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:34045044-78B4-432C-BB1E-7EB82D3B474E
+UID:34045044-78B4-432C-BB1E-7EB82D3B474E
+TRIGGER:-PT15M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Dubai:20200327T050000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="ENG1002 Practice Class":mailto:monash.edu_r242v79a4328kes1
+ ac5ltcq89k@group.calendar.google.com
+UID:5i60me7dva9rc25l3ot3r2l2da@google.com
+DTSTAMP:20200806T121041Z
+LOCATION:Zoom
+DESCRIPTION:This is a once off reminder that you have an online practice
+  class today with your teammates.<br><br>READ THIS POST to get in:<br><a
+  href="https://lms.monash.edu/mod/forum/discuss.php?d=1870115">https://l
+ ms.monash.edu/mod/forum/discuss.php?d=1870115</a>&nbsp\;&nbsp\;
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:ENG1002 Practice Class
+LAST-MODIFIED:20200806T121041Z
+DTSTART;TZID=Asia/Dubai:20200327T020000
+CREATED:20200326T002951Z
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:D5AAA49B-97F2-448A-919C-932D293A0471
+UID:D5AAA49B-97F2-448A-919C-932D293A0471
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20200326T215015Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:EBB3AB08-AD6A-4346-9741-E69446B644DF
+UID:EBB3AB08-AD6A-4346-9741-E69446B644DF
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20200326T215015Z
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20200325T120000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="sm.abdullah@monash.edu":mailto:sm.abdullah@monash.edu
+UID:6ef480pagrm2iahku3m4hr1dli@google.com
+DTSTAMP:20200802T140644Z
+DESCRIPTION:Dear students\,<br><br>This is your tutor\, Abdullah. We are
+  facing technical issues in Zoom. So we decided to run this week's prac 
+ on Hangouts. Use the following meeting ID to join the session.<br><br><b
+ >sny-jqmp-wzn</b><br><br>See you all at 9 AM.\n\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease
+  do not edit this section of the description.\n\nThis event has a video 
+ call.\nJoin: https://meet.google.com/sny-jqmp-wzn\n(US) +1 252-843-1170 
+ PIN: 485024717#\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:ENG1003 P04E
+LAST-MODIFIED:20200802T140644Z
+DTSTART;TZID=Australia/Sydney:20200325T090000
+CREATED:20200324T044959Z
+ATTENDEE;CN="atai0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:atai0004@student.monash
+ .edu
+ATTENDEE;CN="bdin0006@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:bdin0006@student.monash
+ .edu
+ATTENDEE;CN="cmor0026@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:cmor0026@student.monash
+ .edu
+ATTENDEE;CN="csam0003@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:csam0003@student.mo
+ nash.edu
+ATTENDEE;CN="gnat0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:gnat0002@student.mo
+ nash.edu
+ATTENDEE;CN="jbro0034@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jbro0034@student.mo
+ nash.edu
+ATTENDEE;CN="jgre0033@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jgre0033@student.mo
+ nash.edu
+ATTENDEE;CN="marm0010@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:marm0010@student.monash
+ .edu
+ATTENDEE;CN="matt0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matt0004@student.mo
+ nash.edu
+ATTENDEE;CN="mdew0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:mdew0004@student.monash
+ .edu
+ATTENDEE;CN="rbad0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:rbad0002@student.monash
+ .edu
+ATTENDEE;CN="sbry0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:sbry0004@student.mo
+ nash.edu
+ATTENDEE;CN="sm.abdullah@monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:sm.abdullah@monash.edu
+ATTENDEE;CN="tkos0006@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tkos0006@student.monash
+ .edu
+ATTENDEE;CN="tniu0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tniu0004@student.monash
+ .edu
+ATTENDEE;CN="tyea0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=DEC
+ LINED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tyea0002@student.monash
+ .edu
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:6A9A48F9-DF6D-4CD9-A9B4-10A1A81FD126
+UID:6A9A48F9-DF6D-4CD9-A9B4-10A1A81FD126
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20200324T220105Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:D9A4A8F4-81E1-4FDE-AF7F-8ACE4B6122BF
+UID:D9A4A8F4-81E1-4FDE-AF7F-8ACE4B6122BF
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20200324T220105Z
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20200702T210000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="cmor0026@student.monash.edu":mailto:cmor0026@student.monas
+ h.edu
+UID:3C26E9BA-CA5D-45CB-86D1-101C328602F0
+DTSTAMP:20200802T140645Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:ENG1003 P04E
+LAST-MODIFIED:20200802T140645Z
+DTSTART;TZID=Australia/Sydney:20200702T180000
+CREATED:20200626T040430Z
+ATTENDEE;CN="atai0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:atai0004@student.mo
+ nash.edu
+ATTENDEE;CN="bdin0006@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:bdin0006@student.monash
+ .edu
+ATTENDEE;CN="cmor0026@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:cmor0026@student.monash
+ .edu
+ATTENDEE;CN="csam0003@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:csam0003@student.mo
+ nash.edu
+ATTENDEE;CN="gnat0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:gnat0002@student.mo
+ nash.edu
+ATTENDEE;CN="jbro0034@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jbro0034@student.mo
+ nash.edu
+ATTENDEE;CN="jgre0033@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jgre0033@student.mo
+ nash.edu
+ATTENDEE;CN="marm0010@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:marm0010@student.monash
+ .edu
+ATTENDEE;CN="matt0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matt0004@student.mo
+ nash.edu
+ATTENDEE;CN="mdew0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:mdew0004@student.mo
+ nash.edu
+ATTENDEE;CN="rbad0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:rbad0002@student.mo
+ nash.edu
+ATTENDEE;CN="sbry0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:sbry0004@student.mo
+ nash.edu
+ATTENDEE;CN="sm.abdullah@monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=DECLINED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:sm.abdullah@monash.edu
+ATTENDEE;CN="tkos0006@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tkos0006@student.mo
+ nash.edu
+ATTENDEE;CN="tniu0004@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tniu0004@student.monash
+ .edu
+ATTENDEE;CN="tyea0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=DEC
+ LINED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tyea0002@student.monash
+ .edu
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.mo
+ nash.edu
+BEGIN:VALARM
+X-WR-ALARMUID:8B3BB326-CF4D-46E9-BE11-9F3087928B3A
+UID:8B3BB326-CF4D-46E9-BE11-9F3087928B3A
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20200702T075031Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:8C59C66E-9567-4655-95DC-BF93B6F717F6
+UID:8C59C66E-9567-4655-95DC-BF93B6F717F6
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20200702T075031Z
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Dubai:20201007T050000
+UID:1egd78n8jv1rj47kus3q774r51@google.com
+DTSTAMP:20201010T120223Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:zoom 7 october
+LAST-MODIFIED:20201010T120223Z
+CREATED:20201010T120223Z
+DTSTART;TZID=Asia/Dubai:20201007T040000
+BEGIN:VALARM
+X-WR-ALARMUID:E31907C1-F705-434B-AC1A-98188BBC9BE6
+UID:E31907C1-F705-434B-AC1A-98188BBC9BE6
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20200312T160000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="cmar0043@student.monash.edu":mailto:cmar0043@student.monas
+ h.edu
+UID:n8ng47rndoepdgubkr67ofvonc@google.com
+DTSTAMP:20200312T042037Z
+LOCATION:https://zoom.us/j/205196194?pwd=RlFiQmcveXJmd2Uyb21oU0VDNTVGQT0
+ 9
+DESCRIPTION:Connor Marshall is inviting you to a scheduled Zoom meeting.
+ \n\nJoin Zoom Meeting\nhttps://zoom.us/j/205196194?pwd=RlFiQmcveXJmd2Uyb
+ 21oU0VDNTVGQT09\n\nMeeting ID: 205 196 194\nPassword: FlipFlop\n\nOne ta
+ p mobile\n\,\,205196194# US Toll\n\nDial by your location\n         US T
+ oll\n        \nMeeting ID: 205 196 194\nFind your local number: https://
+ zoom.us/u/ag2S4PYSv\n
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:My Meeting
+LAST-MODIFIED:20200312T042037Z
+DTSTART;TZID=Australia/Sydney:20200312T150000
+CREATED:20200312T032903Z
+ATTENDEE;CN="cmar0043@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:cmar0043@student.monash
+ .edu
+ATTENDEE;CN="pmag0001@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:pmag0001@student.mo
+ nash.edu
+ATTENDEE;CN="tlou0003@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tlou0003@student.monash
+ .edu
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=NEE
+ DS-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.mo
+ nash.edu
+BEGIN:VALARM
+X-WR-ALARMUID:D0B1341E-1DB9-459C-8C8C-88CC84315565
+UID:D0B1341E-1DB9-459C-8C8C-88CC84315565
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20200312T042037Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:7C155C30-4708-417E-BA21-49829E6BCDCB
+UID:7C155C30-4708-417E-BA21-49829E6BCDCB
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20200312T042037Z
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;TZID=Australia/Sydney:20190805T150000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="Unknown Organizer":mailto:unknownorganizer@calendar.google
+ .com
+UID:7kukuqrfedlm2f9t9okf4aciuofdefp7j9vsp0q3mtfouqls2c7f6pllslqfscgk6cbg
+DTSTAMP:20190805T042330Z
+LOCATION:International Student Engagement\, 21 Chancellors Walk\, Level 
+ 1\, Room 1-171\, Monash University\, Victoria\, AU\, 3800
+DESCRIPTION:To see detailed information for automatically created events
+  like this one\, use the official Google Calendar app. https://g.co/cale
+ ndar\n\nThis event was created from an email that you received in Gmail.
+  https://mail.google.com/mail?extsrc=cal&plid=ACUX6DMHTKJVtSNDtl6Y2chv3o
+ zoy2yEDmqz4W0\n
+STATUS:CONFIRMED
+SEQUENCE:0
+CLASS:PRIVATE
+SUMMARY:U 18 Appointment Booking Clayton
+LAST-MODIFIED:20190805T042330Z
+DTSTART;TZID=Australia/Sydney:20190805T143000
+CREATED:20190804T122318Z
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:AD24C537-6DB9-4335-B4A0-9F1B9438E590
+UID:AD24C537-6DB9-4335-B4A0-9F1B9438E590
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Dubai:20200821T093000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="laurel.bakos@monash.edu":mailto:laurel.bakos@monash.edu
+UID:29sclto33kmltvnqv0bjkhjb8d@google.com
+DTSTAMP:20210105T075518Z
+LOCATION:https://monash.zoom.us/j/96607961165?pwd=N2lTM0VPZUF6N2ZZWWZLOF
+ gyclRwQT09
+DESCRIPTION:<b>PLEASE MUTE YOUR MICROPHONE &amp\; TURN YOUR VIDEO OFF UP
+ ON JOINING THE MEETING. THIS WILL ENSURE BANDWIDTH FROM YOUR LOCATION.</
+ b>&nbsp\;&nbsp\;<br><br>Hi\,<br><br>Thank you for registering for the Fa
+ culty of Information Technology Industry Based Learning (IBL) Informatio
+ n Session to be held on Friday 21st August at 2pm.<br><br>During this se
+ ssion\, you will hear from Stephen Huxford\, Director of IBL who will di
+ scuss the IBL Program in detail and outline the application process.<br>
+ <br>If you have any general questions regarding the IBL Program please s
+ ubmit them&nbsp\;<a href="https://forms.gle/NyrzV6JoMnzE5ipU6" id="ow189
+ 2" __is_owner="true">here</a>&nbsp\;and will answer your questions durin
+ g the session. If your question relates specifically to your personal ci
+ rcumstances we will respond via email.&nbsp\;&nbsp\;<br><br>Applications
+  will open on Monday 24th August. You will be sent an email from the Fac
+ ulty alerting you that applications are open\, the application link will
+  also be available on the website.<br><br>Please note this session is fo
+ r&nbsp\;<b><u>Undergraduate Students</u></b>&nbsp\;only.<br><br><br>Rega
+ rds\,<br>The IBL Team──────────<br><br>Hi there\, <br><br>Laurel Bakos i
+ s inviting you to a scheduled Zoom meeting. <br><br>Join from a PC\, Mac
+ \, iPad\, iPhone or Android device: <br><br>    Please click this URL to
+  start or join. <a href="https://monash.zoom.us/j/96607961165?pwd=N2lTM0
+ VPZUF6N2ZZWWZLOFgyclRwQT09">https://monash.zoom.us/j/96607961165?pwd=N2l
+ TM0VPZUF6N2ZZWWZLOFgyclRwQT09</a> <br>    Or\, go to <a href="https://mo
+ nash.zoom.us/join">https://monash.zoom.us/join</a> and enter meeting ID:
+  966 0796 1165  and password: 343479<br>        Ensure your device has a
+  dedicated microphone and webcam.<br>        **Please do not share these
+  details with those not on the participant list**<br><br><br>Join from a
+  Video capable room system(H.323/SIP): <br><br>Dial:<br>    61262227588 
+ (From within Monash only) <br>  or:<br>    103.122.166.55 (IP) or<br>   
+  <a href="http://zmau.us">zmau.us</a> (Backup)<br><br>    Meeting ID: 96
+ 6 0796 1165 <br>    Password: 343479<br><br><br>========================
+ ====================<br>Use of Zoom is subject to Monash University’s IT
+  &lt\;a href="<a href="https://www.monash.edu/__data/assets/pdf_file/000
+ 9/1092699/Information-Technology-Acceptable-Use-Policy.pdf">https://www.
+ monash.edu/__data/assets/pdf_file/0009/1092699/Information-Technology-Ac
+ ceptable-Use-Policy.pdf</a>"&gt\;Acceptable Use Policy&lt\;/a&gt\;.<br> 
+ <br>For information relating to the handling of your personal informatio
+ n please refer to Monash University’s &lt\;a href="<a href="https://www.
+ monash.edu/__data/assets/pdf_file/0003/790086/Privacy.pdf">https://www.m
+ onash.edu/__data/assets/pdf_file/0003/790086/Privacy.pdf</a>"&gt\;Data P
+ rotection and Privacy Procedure&lt\;/a&gt\;.<br> <br>If you have any que
+ stions about how Monash University is collecting and handling your perso
+ nal information\, please contact our Data Protection and Privacy Office 
+ at <a href="mailto:dataprotectionofficer@monash.edu">dataprotectionoffic
+ er@monash.edu</a>.<br>============================================<br><b
+ r>──────────
+STATUS:CONFIRMED
+SEQUENCE:2
+SUMMARY:IBL Information Session - Friday 21st August
+LAST-MODIFIED:20210105T075518Z
+DTSTART;TZID=Asia/Dubai:20200821T080000
+CREATED:20200724T005041Z
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:DBBF9E04-280E-4366-8CBF-3BB44D8C2FFB
+UID:DBBF9E04-280E-4366-8CBF-3BB44D8C2FFB
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20200713T163000
+UID:1CB8CA54-8F1E-426D-AF37-EFA26A42020E
+DTSTAMP:20200630T112720Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Seminar for Specialisation!!!!
+LAST-MODIFIED:20200630T112720Z
+CREATED:20200630T112720Z
+DTSTART;TZID=Australia/Sydney:20200713T120000
+BEGIN:VALARM
+X-WR-ALARMUID:2C4E7246-8A9A-432F-87B7-659A687A681D
+UID:2C4E7246-8A9A-432F-87B7-659A687A681D
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Australia/Sydney:20200602T223000
+UID:10E62C08-0042-4FBD-9492-049A12B708ED
+DTSTAMP:20200602T115438Z
+LOCATION:https://us02web.zoom.us/j/88256243457?pwd=T2JlY2xHVXZWY2UwbFVxK
+ zRQa21EQT09
+DESCRIPTION:Vishal Jakhar is inviting you to a scheduled Zoom meeting.\n
+ \n\n\nJoin Zoom Meeting\n\nhttps://us02web.zoom.us/j/88256243457?pwd=T2J
+ lY2xHVXZWY2UwbFVxKzRQa21EQT09\n\n\n\nMeeting ID: 882 5624 3457\n\nPasswo
+ rd: 000\n\n
+URL;VALUE=URI:https://us02web.zoom.us/j/88256243457?pwd=T2JlY2xHVXZWY2Uw
+ bFVxKzRQa21EQT09
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Vishal Jakhar's Zoom Meeting
+LAST-MODIFIED:20200602T115438Z
+DTSTART;TZID=Australia/Sydney:20200602T220000
+CREATED:20200602T115438Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:693A3D4B-0337-4E3F-9D45-72C22CD62704
+UID:693A3D4B-0337-4E3F-9D45-72C22CD62704
+TRIGGER:-PT15M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Dubai:20210316T100000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="natasha.gates@monash.edu":mailto:natasha.gates@monash.edu
+UID:30jv8vd0klg40o9viq5u45kv9v@google.com
+DTSTAMP:20210315T072315Z
+DESCRIPTION:Hear from recruiters from\;<br>Janani D'Silva\, Associate Di
+ rector &amp\; Graduate Program Manager at Capgemini\, <br>Ellen Nash\, G
+ raduate Experience Advisor at Xero\, <br>Jade Warrener\, Early Talent Ma
+ nager at NAB\, and <br>Yi Ting Wong\, Recruiter &amp\; Graduate Experien
+ ce Lead at Thoughtworks <br><br><br>Join from a PC\, Mac\, iPad\, iPhone
+  or Android device:<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;Please click this URL
+  to join.&nbsp\;<a href="https://monash.zoom.us/s/88485743640?pwd=cFdrR2
+ xGdzNTS2I3dVo0MVF6OTRnUT09">https://monash.zoom.us/s/88485743640?pwd=cFd
+ rR2xGdzNTS2I3dVo0MVF6OTRnUT09</a><br><br>Join from a dial-in phone:<br>&
+ nbsp\;&nbsp\;&nbsp\;&nbsp\;Dial: +61 2 8015 2088<br>&nbsp\;&nbsp\;&nbsp\
+ ;&nbsp\;Toll-free dial: 877 369 0926 (US/Canada only)<br>&nbsp\;&nbsp\;&
+ nbsp\;&nbsp\;Webinar ID: 884 8574 3640<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;In
+ ternational numbers available:&nbsp\;<a href="https://monash.zoom.us/u/k
+ cX1QTEMNh">https://monash.zoom.us/u/kcX1QTEMNh</a><br><br>Join from a H.
+ 323/SIP room system:<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;Dial:&nbsp\;<a href=
+ "http://zoom.aarnet.edu.au">zoom.aarnet.edu.au</a><br>&nbsp\;&nbsp\;&nbs
+ p\;&nbsp\;Webinar ID: 884 8574 3640<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;Passw
+ ord: 228938<br><br>System requirement:<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;Zo
+ om 3.0 or higher is required to join the webinar. You can download it fr
+ om&nbsp\;<a href="https://monash.zoom.us/download">https://monash.zoom.u
+ s/download</a>\, Apple App Store or Google Play.
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Recruiter Ask Me Anything Panel Session
+LAST-MODIFIED:20210315T072315Z
+DTSTART;TZID=Asia/Dubai:20210316T090000
+CREATED:20210312T010146Z
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:B5F53BAE-1760-4757-BFEB-52538E29F2C5
+UID:B5F53BAE-1760-4757-BFEB-52538E29F2C5
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Dubai:20210317T103000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="laurel.bakos@monash.edu":mailto:laurel.bakos@monash.edu
+UID:2fjf6nge9b4j2v11srt5s5qk8f@google.com
+DTSTAMP:20210315T074308Z
+LOCATION:https://monash.zoom.us/j/86830217278?pwd=UERCS2VLS24zcXVkTzRCN2
+ ptWUZsUT09
+DESCRIPTION:<b>PLEASE MUTE YOUR MICROPHONE &amp\; TURN YOUR VIDEO OFF UP
+ ON JOINING THE MEETING. THIS WILL ENSURE BANDWIDTH FROM YOUR LOCATION.</
+ b>&nbsp\;&nbsp\;<br><br>Hi\,<br><br>Thank you for registering for the Fa
+ culty of Information Technology Industry Based Learning (IBL) Informatio
+ n Session to be held on Wednesday 17th March at 4pm.&nbsp\;<br><br>Durin
+ g this session\, you will hear from Stephen Huxford\, Director of IBL wh
+ o will discuss the IBL Program in detail and outline the application pro
+ cess.<br><br>A Q &amp\; A session will be held after presentation.<br><b
+ r>Please note this session is for&nbsp\;<b><u>Undergraduate Students</u>
+ </b>&nbsp\;only.<br><br><br>Regards\,<br>The IBL Team<br>──────────<br><
+ br>Hi there\, <br><br>Laurel Bakos is inviting you to a scheduled Zoom m
+ eeting. <br><br>Join from a PC\, Mac\, iPad\, iPhone or Android device: 
+ <br><br>    Please click this URL to start or join. <a href="https://mon
+ ash.zoom.us/j/86830217278?pwd=UERCS2VLS24zcXVkTzRCN2ptWUZsUT09">https://
+ monash.zoom.us/j/86830217278?pwd=UERCS2VLS24zcXVkTzRCN2ptWUZsUT09</a> <b
+ r>    Or\, go to <a href="https://monash.zoom.us/join">https://monash.zo
+ om.us/join</a> and enter meeting ID: 868 3021 7278  and passcode: 266291
+ <br>        Ensure your device has a dedicated microphone and webcam.<br
+ >        **Please do not share these details with those not on the parti
+ cipant list**<br><br><br>Join from a Video capable room system(H.323/SIP
+ ): <br><br>Dial:<br>    61262227588 (From within Monash only) <br>  or:<
+ br>    103.122.166.55 (IP) or<br>    <a href="http://zmau.us">zmau.us</a
+ > (Backup)<br><br>    Meeting ID: 868 3021 7278 <br>    Passcode: 266291
+ <br><br><br>============================================<br>Use of Zoom 
+ is subject to Monash University’s IT &lt\;a href="<a href="https://www.m
+ onash.edu/__data/assets/pdf_file/0009/1092699/Information-Technology-Acc
+ eptable-Use-Policy.pdf">https://www.monash.edu/__data/assets/pdf_file/00
+ 09/1092699/Information-Technology-Acceptable-Use-Policy.pdf</a>"&gt\;Acc
+ eptable Use Policy&lt\;/a&gt\;.<br> <br>For information relating to the 
+ handling of your personal information please refer to Monash University’
+ s &lt\;a href="<a href="https://www.monash.edu/__data/assets/pdf_file/00
+ 03/790086/Privacy.pdf">https://www.monash.edu/__data/assets/pdf_file/000
+ 3/790086/Privacy.pdf</a>"&gt\;Data Protection and Privacy Procedure&lt\;
+ /a&gt\;.<br> <br>If you have any questions about how Monash University i
+ s collecting and handling your personal information\, please contact our
+  Data Protection and Privacy Office at <a href="mailto:dataprotectionoff
+ icer@monash.edu">dataprotectionofficer@monash.edu</a>.<br>==============
+ ==============================<br><br>──────────
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:FIT IBL INFORMATION SESSION
+LAST-MODIFIED:20210315T074308Z
+DTSTART;TZID=Asia/Dubai:20210317T090000
+CREATED:20210226T054242Z
+ATTENDEE;CN="vjak0002@student.monash.edu";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:vjak0002@student.monash
+ .edu
+BEGIN:VALARM
+X-WR-ALARMUID:AD2FFC66-D0F5-4451-A0D3-C0136F9DA8F9
+UID:AD2FFC66-D0F5-4451-A0D3-C0136F9DA8F9
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

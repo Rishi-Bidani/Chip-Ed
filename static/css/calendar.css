@@ -1,0 +1,290 @@
+*,
+*::after,
+*::before {
+  overflow: hidden;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "spartanExB";
+  src: url("../static/Spartan-ExtraBold.ttf");
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+
+  background: transparent;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#calendar-div {
+  display: grid;
+
+  grid-template-columns: 8% 84% 8%;
+}
+
+.calendar-month-navigate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+/* .calendar-header > .active {
+  background-color: rgb(175, 89, 244);
+} */
+
+.calendar-month-view-next-month-date,
+.calendar-month-view-last-month-date {
+  color: rgb(219, 219, 219);
+}
+
+.calendar {
+  width: 85vw;
+
+  transition: height 0.15s linear;
+  animation: fadeIn ease 1s;
+  /* height: 89vh; */
+
+  border: 2px solid black;
+  background-image: linear-gradient(#9e7474, #c59d87);
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  justify-content: space-between;
+
+  height: 7vh;
+  margin-top: 1vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.dropdown > * {
+  width: 8vw;
+}
+
+.calendar-button {
+  height: 5vh;
+  padding: 1.5vh 1.5vw;
+
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+
+  color: #ffffff;
+  border: 3px solid #33373d;
+  background-color: transparent;
+  font-family: "spartan";
+}
+
+.calendar-button:hover {
+  background-color: #484e63;
+}
+
+.current-month-year {
+  font-family: "spartanExB";
+  font-size: 2.5vw;
+}
+
+.calendar-body {
+  display: grid;
+  justify-content: center;
+
+  padding: 0;
+
+  animation: fadeIn ease 1.5s;
+
+  /* border: 1px solid black; */
+
+  font-family: "spartan";
+
+  grid-template-columns: repeat(1, 7fr);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.calendar-table-header {
+  /* border: none; */
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  /* padding-top: 1vh; */
+
+  padding-bottom: 1.5vh;
+  padding-left: 0.5vw;
+
+  text-align: left;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  /* background-color: white; */
+}
+
+/* .today-circle::before {
+  border-radius: 50%;
+  width: 34px;
+  line-height: 20px;
+  background-color: rgb(235,8,111);
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+} */
+
+/* .calendar-date-weekend,
+.calendar-day-weekend {
+  color: #474A55;
+} */
+
+.calendar-date-weekday,
+.calendar-date-weekend {
+  height: 11vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  /* border: 1px solid rgb(161, 156, 156); */
+}
+
+#selected-year,
+#selected-month,
+#month,
+#nextMonthName,
+#month-dropdown-list {
+  text-transform: capitalize;
+}
+
+.calendar-header-buttons-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  width: auto;
+}
+
+.calendar-header-buttons-container button:not(#selected-month) {
+  border-right: none;
+}
+
+.year-dropdown:hover {
+  background-color: #484e63;
+}
+
+.dropdown-content {
+  position: absolute;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 2;
+
+  display: none;
+  overflow: auto;
+
+  height: 25vh;
+
+  background-color: #aaa5a5;
+  font-family: "spartan";
+}
+
+.dropdown-content div {
+  display: block;
+  float: center;
+
+  padding: 1vh 0.5vw;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: black;
+}
+
+.dropdown-content div:hover {
+  background-color: #ffffff;
+}
+
+div[selected="selected"] {
+  background-color: #ffffff;
+}
+
+/* block below is temporary */
+#next,
+#prev {
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+}
+
+.calendar-week-view-time {
+  padding-top: 1vh;
+  padding-right: 0.5vw;
+  padding-bottom: 1vh;
+
+  text-align: right;
+
+  border: 1px solid black;
+}
+
+.calendar-events {
+  overflow: auto;
+
+  height: 7vh;
+  padding-right: 0.5vw;
+  /* padding-top: 1vh; */
+  /* border: 1px solid red; */
+  padding-bottom: 0.5vh;
+}
+
+.calendar-events div {
+  margin-top: 0.5vh;
+  padding-top: 0.1vh;
+  padding-left: 0.1vw;
+
+  border-radius: 5%;
+  background-color: yellowgreen;
+}
+
+#monthArrow {
+  width: 9vw;
+  height: 15vh;
+}
+
+/* .calendar-event {
+  display: inline-block;
+  animation: floatText 25s infinite linear;
+  padding-left: 100%;
+  white-space: nowrap;
+}
+
+.calendar-event:hover {
+  animation-play-state: paused;
+}
+
+@@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+} */
