@@ -2,7 +2,7 @@
   --topHeight: 6vh;
   --mainheight: calc(100vh - var(--topHeight));
   --welcomeFont: 1rem;
-  --container1height: 90%;
+  --container1height: 95%; /* changed from 90% */
 }
 
 /* Dark Mode Colours */
@@ -82,6 +82,7 @@ body {
   margin-left: 5%;
   background-color: var(--color1);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 img {
